@@ -3,16 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/main.css">
 
   <title>Frontend Mentor | QR code component</title>
 
 </head>
-<body>
+<body class="bg-banner  ">
 
-  <main class="template w-full h-[100vh] ">
+  <main class="template w-full h-[100vh] relative p-3   bg-banner grid place-items-center">
+
+    <!-- code for container card -->
+    <section class="card-code container font-outfit  bg-main-card rounded-2xl p-4 pb-9 xs:w-[300px]  ">
+      <div class="w-full h-[250px] rounded-xl bg-[url('./images/image-qr-code.png')] bg-center bg-no-repeat bg-cover">
+        
+      </div>
+      <h2 class=" text-center font-bold my-3 text-xl px-1 text-section-text-card">
+        Improve your front-end skills by building projects
+      </h2>
+      <p class="text-center text-text-code text-[0.9em] px-4 leading-[1.2em] ">
+      Scan the QR code to visit frontend Mentor and take your coding skills to the next level 
+      </p>
+    </section>
 
   </main>
 

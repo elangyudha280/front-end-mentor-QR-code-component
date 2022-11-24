@@ -513,10 +513,244 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 400px) {
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.grid {
+  display: grid;
+}
+
 .h-\[100vh\] {
   height: 100vh;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.bg-banner {
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
+}
+
+.bg-main-card {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\/images\/image-qr-code\.png\'\)\] {
+  background-image: url('./images/image-qr-code.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-outfit {
+  font-family: Outfit;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[1em\] {
+  font-size: 1em;
+}
+
+.text-\[\.6em\] {
+  font-size: .6em;
+}
+
+.text-\[0\.6em\] {
+  font-size: 0.6em;
+}
+
+.text-\[0\.8em\] {
+  font-size: 0.8em;
+}
+
+.text-\[0\.9em\] {
+  font-size: 0.9em;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.leading-\[-10px\] {
+  line-height: -10px;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-\[1em\] {
+  line-height: 1em;
+}
+
+.leading-\[0\.7em\] {
+  line-height: 0.7em;
+}
+
+.leading-\[0\.2em\] {
+  line-height: 0.2em;
+}
+
+.leading-\[0\.1em\] {
+  line-height: 0.1em;
+}
+
+.leading-\[1\.2em\] {
+  line-height: 1.2em;
+}
+
+.text-section-text-card {
+  --tw-text-opacity: 1;
+  color: hsl(218 44% 22% / var(--tw-text-opacity));
+}
+
+.text-text-code {
+  --tw-text-opacity: 1;
+  color: hsl(220 15% 55% / var(--tw-text-opacity));
+}
+
+@media (min-width: 400px) {
+  .xs\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .xs\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .xs\:p-0 {
+    padding: 0px;
+  }
 }

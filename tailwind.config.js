@@ -4,11 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bg-banner': 'hsl(212, 45%, 89%)',
-        'bg-card':'hsl(0, 0%, 100%)',
-        'color-text-card':'hsl(218, 44%, 22%)',
-        'bg-code':'hsl(220, 15%, 55%)'
+        'banner': 'hsl(212, 45%, 89%)',
+        'main-card':'hsl(0, 0%, 100%)',
+        'section-text-card':'hsl(218, 44%, 22%)',
+        'text-code':'hsl(220, 15%, 55%)'
       },
+      screens: {
+        'xs': '400px',
+      },
+        fontFamily: {
+        'outfit': ['Outfit'],
+      }
     },
   },
   plugins: [],
